@@ -25,7 +25,7 @@ ys, xs = np.where(m); H = m.shape[0]
 # monograma: tudo acima de 55% da altura
 mono = m.copy(); mono[int(.55 * H):] = False
 nome = m.copy(); nome[:int(.55 * H)] = False
-for nm, mk in [('mono', mono), ('nome', nome)]:
+for nm, mk in [("mono", mono)]:
     y, x = np.where(mk); x0, x1, y0, y1 = x.min(), x.max(), y.min(), y.max()
     d = paths(mk, x0 - 2, y0 - 2); w, h = x1 - x0 + 4, y1 - y0 + 4
     (S / 'img' / f'{nm}.svg').write_text(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}"><path fill="#b8935a" fill-rule="evenodd" d="{d}"/></svg>', encoding='utf-8')

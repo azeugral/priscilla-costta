@@ -1,0 +1,2 @@
+Logo oficial: _ref/logo-original.png (enviada pelo Daniel em 25/11). Vai como img/logo.webp no rodapé com mix-blend-mode:screen (o fundo preto some).
+Vetorizar a versão 3D não dá resultado limpo (o brilho e a sombra serrilham o contorno). O monograma da barra (img/mono.svg) sai de tools/logo_post.py, a partir da versão lisa num post.
