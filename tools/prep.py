@@ -39,8 +39,8 @@ bb = cut.getchannel('A').point(lambda v: 255 if v > 20 else 0).getbbox(); cut = 
 cut.thumbnail((1100, 1600), Image.LANCZOS); cut.save(O / 'retrato.webp', quality=88, method=6)
 print('retrato', cut.size)
 
-# --- sobre (101_1 Lisboa) ---
-s = Image.open(R / '101_CxnPXPoOh0G_1.jpg').convert('RGB'); save(crop45(s, .5, .45), 'sobre.webp', 1100)
+# --- hero (101_1 Lisboa, foto original no quadro) ---
+s = Image.open(R / '101_CxnPXPoOh0G_1.jpg').convert('RGB'); save(crop45(s, .5, .45), 'hero-foto.webp', 1100)
 # --- trajetória (4:5) ---
 G = [('040_DWWqAqvlj4y_1', .5, .4, 'posse'), ('040_DWWqAqvlj4y_2', .5, .5, 'abmcj'), ('102_CxgNsXvpqMz_3', .5, .5, 'lisboa'),
      ('021_DbBCBh0Jy0t', .5, .5, 'livro'), ('018_DbrnWRFu7nq', .5, .5, 'homenagem'), ('059_DSVKO-Ejqvz_6', .5, .55, 'palco'),
