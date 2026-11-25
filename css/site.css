@@ -34,7 +34,7 @@ strong{font-weight:600}
 .nav{position:sticky;top:0;z-index:50;background:rgba(242,236,227,.92);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--linha)}
 .nav-in{max-width:var(--larg);margin:0 auto;height:68px;padding:0 24px;display:flex;align-items:center;justify-content:space-between;gap:20px}
 .marca{display:flex;align-items:center;gap:10px;text-decoration:none;font:500 20px/1 var(--serif);color:var(--cafe);white-space:nowrap}
-.marca img{width:36px;height:auto}
+.marca img{width:40px;height:auto}
 .links{display:flex;gap:26px}
 .links a{text-decoration:none;font-size:15px;color:var(--suave);transition:color .3s var(--ease)}
 .links a:hover{color:var(--cafe)}
