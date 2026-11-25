@@ -206,7 +206,7 @@ textarea{resize:vertical;min-height:110px}
 
 /* rodapé */
 .rodape{background:#1d140f;color:#b7a690;text-align:center;padding:64px 24px 40px;font-size:14.5px}
-.rodape-logo{width:min(560px,96vw);margin:-12% auto -6%;margin:clamp(-70px,-12vw,-30px) auto clamp(-40px,-6vw,-8px);mix-blend-mode:screen;-webkit-mask-image:radial-gradient(closest-side,#000 62%,transparent);mask-image:radial-gradient(closest-side,#000 62%,transparent)}
+.rodape-mono{width:64px;height:auto;margin:0 auto 18px;display:block}
 .rodape .rodape-nome{font:500 30px/1.1 var(--serif);color:#f4ece0;margin:0 0 6px}
 .rodape .rodape-cargo{font-size:12.5px;letter-spacing:.3em;text-transform:uppercase;color:var(--ouro-cl);margin:0 0 22px}
 .rodape p{margin:0 0 6px}
