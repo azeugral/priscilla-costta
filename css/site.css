@@ -34,7 +34,7 @@ strong{font-weight:600}
 .nav{position:sticky;top:0;z-index:50;background:rgba(242,236,227,.92);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--linha)}
 .nav-in{max-width:var(--larg);margin:0 auto;height:68px;padding:0 24px;display:flex;align-items:center;justify-content:space-between;gap:20px}
 .marca{display:flex;align-items:center;gap:10px;text-decoration:none;font:500 20px/1 var(--serif);color:var(--cafe);white-space:nowrap}
-.marca img{width:30px;height:auto}
+.marca img{width:36px;height:auto}
 .links{display:flex;gap:26px}
 .links a{text-decoration:none;font-size:15px;color:var(--suave);transition:color .3s var(--ease)}
 .links a:hover{color:var(--cafe)}
@@ -130,7 +130,7 @@ section{position:relative;overflow:hidden}
 
 /* sobre */
 .sobre{max-width:1080px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,5vw,72px);align-items:center}
-.sobre-foto img{aspect-ratio:4/5;object-fit:cover;width:100%}
+.sobre-foto img{width:100%;height:auto}
 .citacao{font:500 clamp(22px,2.2vw,27px)/1.4 var(--serif);color:var(--cafe);margin-bottom:24px}
 .formacao{list-style:none;margin:26px 0 0;padding:20px 0 0;border-top:1px solid var(--linha);display:grid;gap:8px;font-size:15.5px;color:var(--suave)}
 .formacao li{padding-left:18px;position:relative}
@@ -206,7 +206,7 @@ textarea{resize:vertical;min-height:110px}
 
 /* rodapé */
 .rodape{background:#1d140f;color:#b7a690;text-align:center;padding:64px 24px 40px;font-size:14.5px}
-.rodape-mono{width:64px;height:auto;margin:0 auto 18px;display:block}
+.rodape-mono{width:76px;height:auto;margin:0 auto 18px;display:block}
 .rodape .rodape-nome{font:500 30px/1.1 var(--serif);color:#f4ece0;margin:0 0 6px}
 .rodape .rodape-cargo{font-size:12.5px;letter-spacing:.3em;text-transform:uppercase;color:var(--ouro-cl);margin:0 0 22px}
 .rodape p{margin:0 0 6px}
